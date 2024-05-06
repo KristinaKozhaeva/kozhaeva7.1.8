@@ -1,10 +1,10 @@
 package org.example;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         Human man = new Human();
-        man.firstName = "Ivan";
-        man.lastName = "Ivanov";
+        man.setFirstName("Ivan");
+        man.setLastName("Ivanov");
         System.out.println(man);
     }
 }
